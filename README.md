@@ -20,7 +20,7 @@ Solution: The TensorFlow `GraphDef` that contains the model definition and weigh
 [file](https://storage.googleapis.com/download.tensorflow.org/models/inception_v3_2016_08_28_frozen.pb.tar.gz). This downloaded zip file conatains model 'inception_v3_2016_08_28_frozen.pb' and the label 'imagenet_slim_labels.txt'. Unzip this folder and add these two files in the same directory in which the code downloaded from [Video_classifiacation](https://github.com/anoushka-sahay/Graymatics_Assignment/blob/main/Video_classification.py) is placed<br>
 Finally download the sample input video from [fruit-and-vegetable-detection.mp4](https://github.com/anoushka-sahay/Graymatics_Assignment/blob/main/fruit-and-vegetable-detection.mp4)
 
-## 'Kindly download all the files and codes and place all of them in the same directory. Run all the codes using VSCode or any other text editor'
+#### 'Kindly download all the files and code and place all of them in the same directory. Run all the codes using VSCode or any other text editor'
 
 
 
