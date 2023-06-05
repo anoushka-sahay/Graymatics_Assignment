@@ -104,9 +104,9 @@ if __name__ == "__main__":
 
   graph = load_graph(model_file)
 
-#Here is the main modification, earlier input was a video but here our input is a video.
+#Here is the main modification, earlier input was a image but here our input is a video.
   cap = cv2.VideoCapture('fruit-and-vegetable-detection.mp4')
-  count=0
+  count=0 #to skip some frames
   if (cap.isOpened()== False):
     print("Error opening video file")
 
@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
         if ret == True:
 
-          #optimisation: We skip some frames. Here we skip 10 frames, and then we pass the 11th frame to our read_tensor_fromm_image_file() function
+          #optimisation: We skip some frames. Here we skip 5 frames, and then we pass the 11th frame to our read_tensor_fromm_image_file() function
           count += 5 # i.e. at 5 fps, this advances one second
           cap.set(cv2.CAP_PROP_POS_FRAMES, count)
 
