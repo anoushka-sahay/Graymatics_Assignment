@@ -1,8 +1,12 @@
+#pip install cv2
 import cv2
+#pip install numpy
 import numpy as np
+#video.mkv is the sample video, we will be using a sample input. Download this video file in the directorty in which Problem_3.py is present. If the video.mkv is in another directory then
+#copy its path and paste it instead of 'video.mkv'
 cap = cv2.VideoCapture('video.mkv')
 
-# Check if camera opened successfully
+# Check if video opened successfully
 if (cap.isOpened()== False):
     print("Error opening video file")
 
