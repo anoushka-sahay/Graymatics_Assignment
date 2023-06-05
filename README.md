@@ -5,7 +5,7 @@ This repository contains the code for given tasks<br>
 Solution: We have to choose certain elements from the given list such that total weight of those elements does not exceed the given weight threshold and we have to find the maximum possible weight. We have a choice and we have to maximize the value. We will create a table where number of rows is n+1(n is the elements in the list) and number of columns is W+1(where W is the given weight threshold). <br>
 t[i][j] = Maximun value when number of items is i and weight threshold is j.<br>
 0th row and 0th column of the table t will be 0 because if we have zero items to pick or zero weight threshold then our value will be zero.
-We will use the concept that if an item has weight less than weight threshold, then we have two choices that is to consider that item or not. But if an item has weight grater than weight threshold, then we will reject that item.<br>
+We will use the concept that if an item has weight less than weight threshold, then we have two choices that is to consider that item or not. But if an item has weight greater than weight threshold, then we will reject that item.<br>
 
 ### Question 2: Given a string (string brackets) containing just the characters '(', ')', '{', '}', '[' and ']', return a result to determine if the input string is valid. A valid string must adhere to the following rules:<br>
 => Open brackets must be closed by the same type of brackets.<br>
