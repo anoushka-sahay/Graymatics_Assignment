@@ -22,7 +22,7 @@ Solution:<br>
 Solution: <br>
 1) The TensorFlow `GraphDef` that contains the model definition and weights is not packaged in the repo because of its size. Instead, you must first download the
 [file](https://storage.googleapis.com/download.tensorflow.org/models/inception_v3_2016_08_28_frozen.pb.tar.gz). 
-2) This downloaded zip file conatains model 'inception_v3_2016_08_28_frozen.pb' and the label 'imagenet_slim_labels.txt'. Unzip this folder and extract both the files. 
+2) This downloaded zip file conatains model **'inception_v3_2016_08_28_frozen.pb'** and the label **'imagenet_slim_labels.txt'**. Unzip this folder and extract both the files. 
 3) Download the sample video input for this video classification task from [fruit-and-vegetable-detection.mp4](https://github.com/anoushka-sahay/Graymatics_Assignment/blob/main/fruit-and-vegetable-detection.mp4)
 4) Download the code for video classification from  [Video_classifiacation](https://github.com/anoushka-sahay/Graymatics_Assignment/blob/main/Video_classification.py)
 5) Open a text editor eg. VScode. Place all the downloaded files in the same directory. Install the packages using the following commands in terminal
